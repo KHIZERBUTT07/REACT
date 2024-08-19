@@ -1,51 +1,51 @@
-// import Button from "./components/Button"
+import Button from "./components/Button"
 
 
 
 // Class :1
-// function App() {
+function App() {
   
 
-//   return (
+  return (
     
-//      <div >
-//      <h1> Hello React!</h1>
-//      <Button text="1st Btn" />
-//      <Button text="2nd Btn" />
-//      <Button text="3rd Btn" />
-//      <Button text="4th Btn" />
+     <div >
+     <h1> Hello React!</h1>
+     <Button text="1st Btn" />
+     <Button text="2nd Btn" />
+     <Button text="3rd Btn" />
+     <Button text="4th Btn" />
     
-//      </div>
-//   )
-// } 
+     </div>
+  )
+} 
 
-// export default App
-
-function App(){
-
-  
-  const profile = {
-    name:"Khizer Butt",
-    age: 18,
-    skills:[
-      {skill:"Web Developer",key:1},
-      {skill:"UI/UX Designer",key:1},
-      {skill:"E-commerce Expert",key:1},
-    ],
-  }
-
-
-return(
-<div>
-  <h1>Full name:{profile.name}</h1>
-  <h1>age:{profile.age}</h1>
-  <h1>skills:-</h1>
-  <ul>
-    {profile.skills.map((data) => (
-      <li key={data.key}>{data.skill}</li>
-    ))}
-  </ul>
-</div>
-)
-}
 export default App
+
+// function App(){
+
+  
+//   const profile = {
+//     name:"Khizer Butt",
+//     age: 18,
+//     skills:[
+//       {skill:"Web Developer",key:1},
+//       {skill:"UI/UX Designer",key:1},
+//       {skill:"E-commerce Expert",key:1},
+//     ],
+//   }
+
+
+// return(
+// <div>
+//   <h1>Full name:{profile.name}</h1>
+//   <h1>age:{profile.age}</h1>
+//   <h1>skills:-</h1>
+//   <ul>
+//     {profile.skills.map((data) => (
+//       <li key={data.key}>{data.skill}</li>
+//     ))}
+//   </ul>
+// </div>
+// )
+// }
+// export default App
