@@ -23,6 +23,7 @@
 
 function App(){
 
+  
   const profile = {
     name:"Khizer Butt",
     age: 18,
