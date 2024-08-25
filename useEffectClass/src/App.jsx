@@ -1,3 +1,9 @@
+
+// useEffect: it is use to contact with third party and it is normally use with useState or we can also call it for changing state.
+// useMemo: it is used to fetch cathe value.
+// useCallback: it is used to fetch function value.
+
+
 import { useEffect, useState } from "react";
 
 function App() {
@@ -98,7 +104,7 @@ function App() {
                 <h2 className="text-gray-900 title-font text-lg font-medium">
                   {data.title}
                 </h2>
-                <p className="mt-1">${data.price}</p>
+                <p className="mt-1">{data.price} Rs</p>
               </div>
             </div>
           </div>
@@ -112,8 +118,3 @@ export default App;
 
 
 
-
-
-// useEffect: it is use to contact with third party and it is normally use with useState or we can also call it for changing state.
-// useMemo: it is used to fetch cathe value.
-// useCallback: it is used to fetch function value.
