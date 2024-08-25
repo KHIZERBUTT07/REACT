@@ -2,7 +2,7 @@
 // useEffect: it is use to contact with third party and it is normally use with useState or we can also call it for changing state.
 // useMemo: it is used to fetch cathe value.
 // useCallback: it is used to fetch function value.
-
+ 
 
 import { useEffect, useState } from "react";
 
