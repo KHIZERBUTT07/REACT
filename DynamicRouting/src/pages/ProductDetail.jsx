@@ -11,7 +11,7 @@ function ProductDetail() {
   useEffect(() => {
     setNotFound(false);
     axios
-      .get(`https://dummyjson.com/products/${id}`)
+      .get(`https://fakestoreapi.com/products/${id}`)
       .then((res) => {
         setProduct(res.data);
         setLoading(false);
