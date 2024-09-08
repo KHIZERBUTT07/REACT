@@ -13,8 +13,8 @@ function Products() {
     console.log("Fetching products...");
     const url =
       chosenCategory === "All"
-        ? "https://fakestoreapi.com/products"
-        : `https://fakestoreapi.com/products/category/${chosenCategory}`;
+        ? 'https://dummyjson.com/products'
+        : `https://dummyjson.com/products/categories/${chosenCategory}`;
 
     axios
       .get(url)
@@ -32,7 +32,7 @@ function Products() {
   useEffect(() => {
     console.log("Fetching categories...");
     axios
-      .get("https://fakestoreapi.com/products/categories")
+      .get('https://dummyjson.com/products/categories')
       .then((res) => {
         console.log("Categories fetched:", res.data);
         setCategories(res.data); // API returns an array of categories
